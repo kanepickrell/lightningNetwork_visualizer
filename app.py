@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hello World! This is the Flask app for the Bitcoin Lightning Network Dashboard.'
+    return 'This is the Flask app for the Bitcoin Lightning Network Dashboard.'
 
 @app.route('/lightning')
 def lightning_data():
